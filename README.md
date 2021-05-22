@@ -2,7 +2,7 @@
 Script for performing Conditional Error-based Blind SQL Injection on Oracle Database, where the injection point is a tracking cookie. This attack was used to obtain administrator password from users table
 
 Usage: 
-python3 -u http(s)://\<url\> -s session_cookie_name=session_cookie_value -t token_name=token_value
+python3 -u http(s)://\<url\> -s session_cookie_name=session_cookie_value -t token_name=token_value \<script_name\>.py
 
 Example:  
 ![Alt text](/example.png?raw=true)
